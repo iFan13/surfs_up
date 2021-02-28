@@ -57,5 +57,5 @@ station_month_temp = pd.DataFrame(session.execute('SELECT m.station, AVG(m.tobs)
                              ORDER BY m.station').fetchall(), columns = ['station', 'avgtemp', 'num_month'])
 ```
 
-In this case, out of the 9 stations, a total of 5 of them were below the 15 ft above ocean level criteria. Similarly, to append and display location, all that needs to be done would be to add `s.latitude, s.longitude` to the SELECT clause (with appropriate comma). The basis for these queries and dataframes can be found [here](/SurfsUp_Challenge_Summary) in the repository as well as supplemental resources.
+In this case, out of the 9 stations, a total of 5 of them were below the 15 ft above ocean level criteria. Similarly, to append and display location, all that needs to be done would be to add `s.latitude, s.longitude` to the SELECT clause (with appropriate comma). The basis for these queries and dataframes can be found [here](/SurfsUp_Challenge_Summary_Additions.ipnyb) in the repository as well as supplemental resources.
 
