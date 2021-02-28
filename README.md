@@ -43,7 +43,7 @@ ORDER BY station'
 ```
 but done through python's jupyternotebook by using `session.execute` then converted into a dataframe in the following manner and producing a dataframe of 108 rows x 3 columns as shown below.
 
-![AvgTempStn](/Resources/avgTempStation.png)
+![AvgTempStn](/Resources/TempStationMonth.png)
 
 Lastly, it's possible to modify the above query to include data from the Station table to filter by certain elevations.
 
