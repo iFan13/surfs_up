@@ -14,13 +14,13 @@ Temperature data from the sqlite was queried using SQLAlchemy and then imported 
 * Maximum
 * First, Second and Third Quartiles
 
-Below is the summary of temperature data for all June months
+Below is the summary of temperature data for all June months (left) and December months (right)
 
-![JuneTemp](/Resources/JuneTemperature.png)
+![JuneTemp](/Resources/JuneTemperature.png) ![DecTemp](/Resources/DecemberTemperature.png)
 
 Below is the summary of temperature data for all December months. 
 
-![DecTemp](/Resources/DecemberTemperature.png)
+
 
 As can be seen, the average temperature in December and June months is a difference of approximately three degrees F (approximately 1.67 deg C) but is on average above 71 deg F (21 deg C). However, December has a minimum temperature of 56 deg F (13.3 deg C) in comparison to June's minimum temperature of 64 deg F (17.78 deg C). Both of these temperatures breach on being too brisk for Ice Cream and surfing. Given that the minimum is so low though for December and still managing to keep within 3 degrees F of June's average, it is likely that the temperature highs balance it out. This is reflected with the maximum temperature recorded for December being 83 with June being 85. These temperatures are ideal for Ice Cream and surfing. With a standard deviation of between 3 to 4 degrees F which means the environment is fairly stable. There runs the risk of slower individual days given outliers past the first quartile of 73 and 68 degrees respectively for June and December. 
 
